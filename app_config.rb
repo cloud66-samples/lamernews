@@ -4,7 +4,7 @@ SiteUrl = "http://lamernews.com"
 SiteDescription = "Programming News"
 
 # Redis config
-RedisURL = <%= ENV['REDIS_URL_INT'] %>
+RedisURL = "#{ENV['REDIS_URL_INT']}"
 
 # Security
 PBKDF2Iterations = 1000 # Set this to 5000 to improve security. But it is slow.
